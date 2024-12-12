@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  body {
+    background: grey;
+  }
+  .header {
+    padding-top: 45px;
+  }
+  .wrapper {
+    background-image: url("./1\ \(2\).png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header__nav {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  .header__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: #fff;
+    gap: 30px;
+  }
+  .header__link {
+    text-decoration: none;
+    color: #fff;
+  }
+  .header__link:hover {
+    color: orange;
+    transition: color 0.6s ease;
+  }
+  h1 {
+    color: #fff;
+    font-size: 70px;
+    width: 100px;
+  }
+  .section1 {
+    padding-top: 80px;
+    flex-wrap: wrap;
+  }
+  h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 600px;
+  }
+  .hero__btn {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    font-size: 30px;
+    margin-top: 100px;
+    border-radius: 10px;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+  }
+  .hero__btn:hover {
+    background-color: yellow;
+    transition: background-color 2s ease;
+  }
+  .section__wrapper {
+    background: rgb(119, 119, 119);
+    width: 100%;
+  }
+  
+  .img {
+    width: 100%;
+    height: 800px;
+  }
+  .section3 {
+    margin-top: 50px;
+  }
+  .h1 {
+    color: black;
+    font-size: 50px;
+    width: 100px;
+    padding-right: 550px;
+    padding-left: 550px;
+  }
+  .karta {
+    width: 360px;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+  
+  }
+  .karta__img {
+    width: 320px;
+  }
+  .karta__wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 1200px;
+  }
+  .karta:hover{
+    background-color: orange;
+    transition: color 0.9s ease;
+  }
+  
+  .h2.g{
+    margin-top: 100px;
+
+  }
+  .map{
+    width: 100%;
+    height: 450px;
+  }
+
+ 
+  .Frame{
+    margin-left: 700px;
+    margin-top: 200px;
+  }
+
+
+  .cube_div{
+  background-color: #000;
+  color: white;
+  width: 1280px;
+  height: 300px;
+  border-radius: 20px;  
+  margin-top: 100px;
+  margin-left: 200px;
+  background-image: url(./pngwing.png);
+  background-size:cover ;
+  text-align: center;
+  }
+
+  .cube_div:hover{
+    background-color: orange;
+  }
+
+.cube_div2{
+  width: 400px;
+  height: 458px  ;
+  background-color:  black;
+  border-radius: 20px;
+  background-image: url(./pngwing\ 2.png);
+  font-size: 50px;
+  background-size: 700px;
+}
+
+.cube_div2:hover{
+  background-color: orange;
+  
+}
+
+.p_o{
+    margin-top: 250px;
+    font-size: 50px;
+    margin-left: -500px;
+}
+
+  .mop_div{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+  }
+
+  .p_i{
+
+  }
+
+  .cube_div3{
+    width: 400px;
+  height: 216px  ;
+  background-color:  black;
+  border-radius: 20px;
+  background-image: url(./pngwing\ \(1\).png);
+  font-size: 50px;
+  background-size: cover;
+  margin-top: -457px;
+  margin-left: 410px;
+  }
+
+  .cube_div3:hover{
+    background-color: orange;
+  }
+
+  .cube_div4{
+    width: 400px;
+  height: 216px  ;
+  background-color:  black;
+  border-radius: 20px;
+  background-image: url(./image\ 40\ \(1\).png);
+  font-size: 50px;
+  background-size: cover;
+  margin-top: 23px;
+  margin-left: 410px;
+  }
+
+
+  .cube_div5{
+    width: 400px;
+  height: 216px  ;
+  background-color:  black;
+  border-radius: 20px;
+  background-image: url(./pngwing\ \(3\).png);
+  font-size: 50px;
+  background-size: cover;
+  margin-top: -453px;
+  margin-left: 830px;
+  }
+
+  .cube_div6{
+    width: 400px;
+  height: 216px  ;
+  background-color:  black;
+  border-radius: 20px;
+  background-image: url(./image\ 39.png);
+  font-size: 50px;
+  background-size: cover;
+  margin-top: 23px;
+  margin-left: 830px;
+  }
+
+.cube_div6:hover{
+  background-color: orange;
+}
+
+  .cube_div5:hover{
+    background-color: orange;
+  }
+  .cube_div4:hover{
+    background-color: orange;
+  }
+
+  .Frame2{
+    margin-top: 600px;
+    margin-left: 700px;
+  }
+
+  .div_velo{
+    width: 400px;
+    height: 216px  ;
+    background-color:  black;
+    border-radius: 20px;
+    font-size: 50px;
+    background-size: cover;
+  }
+
+
+  .karta {
+    width: 360px;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+  
+  }
+  .karta__img {
+    width: 320px;
+  }
+  .karta__wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 1200px;
+  }
+  .karta:hover{
+    background-color: orange;
+    transition: color 0.9s ease;
+  }
